@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "styles/inputstyle.css",
+	"sources": [
+		"styles/inputstyle.scss"
+	],
+	"sourcesContent": [
+		".App {\r\n  padding: 4%;\r\n  font-family: 'Raleway', sans-serif;\r\n  &-body {\r\n    text-align: left;\r\n    padding: 15px;\r\n    &--columns {\r\n      display: flex;\r\n    }\r\n  }\r\n  &-logo--image {\r\n    width: 400px;\r\n  }\r\n  &-nav--wrapper {\r\n    list-style-type: none;\r\n    float: right;\r\n    li {\r\n      display: inline;\r\n      padding: .5em;\r\n      border: 1px solid black;\r\n      cursor: pointer;\r\n      margin: 5px;\r\n    }\r\n  }\r\n  &-nav::after {\r\n    content: '';\r\n    clear: both;\r\n    display: block;\r\n  }\r\n  &-splash {\r\n    display: inline-flex;\r\n    width: 100%;\r\n  }\r\n  &-intro {\r\n    text-align: left;\r\n    margin: 0 0 .2em 0;\r\n    &--blurb {\r\n      font-size: large;\r\n    }\r\n  }\r\n}\r\n\r\nul.languages {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  list-style-type: none;\r\n}\r\n\r\n.languages {\r\n  display: flex;\r\n  li {\r\n    display: inline-block;\r\n  }\r\n  img {\r\n    width: 100px;\r\n  }\r\n}\r\n\r\n.links {\r\n  i {\r\n    font-size: 3em;\r\n  }\r\n  a {\r\n    display: block;\r\n  }\r\n}"
+	],
+	"mappings": ";AAAA,AAAA,IAAI,CAAC;EACH,OAAO,EAAE,EAAG;EACZ,WAAW,EAAE,qBAAsB;CAsCpC;;;AAxCD,AAAA,SAAI,CAGK;EACL,UAAU,EAAE,IAAK;EACjB,OAAO,EAAE,IAAK;CAIf;;;AATH,AAAA,kBAAI,CAMW;EACT,OAAO,EAAE,IAAK;CACf;;;AARL,AAAA,gBAAI,CAUY;EACZ,KAAK,EAAE,KAAM;CACd;;;AAZH,AAAA,iBAAI,CAaa;EACb,eAAe,EAAE,IAAK;EACtB,KAAK,EAAE,KAAM;CAQd;;;AAvBH,AAgBI,iBAhBA,CAgBA,EAAE,CAAC;EACD,OAAO,EAAE,MAAO;EAChB,OAAO,EAAE,IAAK;EACd,MAAM,EAAE,eAAgB;EACxB,MAAM,EAAE,OAAQ;EAChB,MAAM,EAAE,GAAI;CACb;;;AAtBL,AAAA,QAAI,AAwBG,OAAO,CAAC;EACX,OAAO,EAAE,EAAG;EACZ,KAAK,EAAE,IAAK;EACZ,OAAO,EAAE,KAAM;CAChB;;;AA5BH,AAAA,WAAI,CA6BO;EACP,OAAO,EAAE,WAAY;EACrB,KAAK,EAAE,IAAK;CACb;;;AAhCH,AAAA,UAAI,CAiCM;EACN,UAAU,EAAE,IAAK;EACjB,MAAM,EAAE,UAAW;CAIpB;;;AAvCH,AAAA,iBAAI,CAoCS;EACP,SAAS,EAAE,KAAM;CAClB;;;AAIL,AAAE,EAAA,AAAA,UAAU,CAAC;EACX,OAAO,EAAE,IAAK;EACd,SAAS,EAAE,IAAK;EAChB,eAAe,EAAE,IAAK;CACvB;;;AAED,AAAA,UAAU,CAAC;EACT,OAAO,EAAE,IAAK;CAOf;;;AARD,AAEE,UAFQ,CAER,EAAE,CAAC;EACD,OAAO,EAAE,YAAa;CACvB;;;AAJH,AAKE,UALQ,CAKR,GAAG,CAAC;EACF,KAAK,EAAE,KAAM;CACd;;;AAGH,AACE,MADI,CACJ,CAAC,CAAC;EACA,SAAS,EAAE,GAAI;CAChB;;;AAHH,AAIE,MAJI,CAIJ,CAAC,CAAC;EACA,OAAO,EAAE,KAAM;CAChB",
+	"names": []
+}

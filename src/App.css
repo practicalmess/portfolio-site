@@ -1,18 +1,94 @@
+/* line 1, C:/xampp/htdocs/portfolio-site/src/styles/App.scss */
 .App {
-  /*text-align: center;*/
+  padding: 4%;
+  font-family: 'Raleway', sans-serif;
 }
 
-.App-logo {
-  height: 200px;
+/* line 4, C:/xampp/htdocs/portfolio-site/src/styles/App.scss */
+.App-body {
+  text-align: left;
+  padding: 15px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 275px;
-  padding: 20px;
-  color: white;
+/* line 7, C:/xampp/htdocs/portfolio-site/src/styles/App.scss */
+.App-body--columns {
+  display: flex;
 }
 
+/* line 11, C:/xampp/htdocs/portfolio-site/src/styles/App.scss */
+.App-logo--image {
+  width: 400px;
+}
+
+/* line 14, C:/xampp/htdocs/portfolio-site/src/styles/App.scss */
+.App-nav--wrapper {
+  list-style-type: none;
+  float: right;
+}
+
+/* line 17, C:/xampp/htdocs/portfolio-site/src/styles/App.scss */
+.App-nav--wrapper li {
+  display: inline;
+  padding: .5em;
+  border: 1px solid black;
+  cursor: pointer;
+  margin: 5px;
+}
+
+/* line 25, C:/xampp/htdocs/portfolio-site/src/styles/App.scss */
+.App-nav::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+/* line 30, C:/xampp/htdocs/portfolio-site/src/styles/App.scss */
+.App-splash {
+  display: inline-flex;
+  width: 100%;
+}
+
+/* line 34, C:/xampp/htdocs/portfolio-site/src/styles/App.scss */
 .App-intro {
+  text-align: left;
+  margin: 0 0 .2em 0;
+}
+
+/* line 37, C:/xampp/htdocs/portfolio-site/src/styles/App.scss */
+.App-intro--blurb {
   font-size: large;
 }
+
+/* line 43, C:/xampp/htdocs/portfolio-site/src/styles/App.scss */
+ul.languages {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+/* line 49, C:/xampp/htdocs/portfolio-site/src/styles/App.scss */
+.languages {
+  display: flex;
+}
+
+/* line 51, C:/xampp/htdocs/portfolio-site/src/styles/App.scss */
+.languages li {
+  display: inline-block;
+}
+
+/* line 54, C:/xampp/htdocs/portfolio-site/src/styles/App.scss */
+.languages img {
+  width: 100px;
+}
+
+/* line 60, C:/xampp/htdocs/portfolio-site/src/styles/App.scss */
+.links i {
+  font-size: 3em;
+}
+
+/* line 63, C:/xampp/htdocs/portfolio-site/src/styles/App.scss */
+.links a {
+  display: block;
+}
+
+/*# sourceMappingURL=../App.map */
