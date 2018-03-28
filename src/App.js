@@ -48,7 +48,7 @@ class App extends Component {
             <div className="App-body--columns">
               <div className="column-1">
                 <h3>Work Experience</h3>
-                  <h4>Wayfair, LLC Oct. 2016 - present | Software Engineer</h4>
+                  <h4>Wayfair, LLC Oct. 2016 - Oct. 2017 | Software Engineer</h4>
                     <ul>
                       <li>Full stack development of internal browser-based tools</li>
                       <li>Using React.js and proprietary MVC framework to build out stand-alone apps</li>
