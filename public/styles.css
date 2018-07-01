@@ -13,6 +13,7 @@ body {
   text-align: center;
   color: white;
   background-image: url("jelly.png");
+  background-color: #574653;
   background-size: cover;
   background-repeat: no-repeat;
 }
